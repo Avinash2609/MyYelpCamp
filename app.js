@@ -21,7 +21,7 @@ var mongoose=require("mongoose");
 // mongodb://localhost:27017/yelpcamp_v10
 
 // mongoose.connect("mongodb://localhost:27017/yelpcamp_v10")
-// mongoose.connect("mongodb+srv://Avinash2609:Avinash@5181@cluster0.qa8fk.mongodb.net/YelpCamp?retryWrites=true&w=majority");
+mongoose.connect("mongodb+srv://Avinash2609:urlencoded@cluster0.qa8fk.mongodb.net/YelpCamp?retryWrites=true&w=majority");
 
 // const MongoClient = require('mongodb').MongoClient;
 // const uri = "mongodb+srv://Avinash2609:Avinash@5181@cluster0.qa8fk.mongodb.net/YelpCamp?retryWrites=true&w=majority";
